@@ -1,5 +1,6 @@
 ﻿import { useCallback, useEffect, useMemo, useRef, useState } from 'react';
 import type { DragEventHandler, WheelEventHandler } from 'react';
+import * as PIXI from 'pixi.js';
 import { useAppStore } from '../../stores/useAppStore';
 import type {
   Edge,
